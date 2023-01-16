@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD2E086C-FA0F-40F1-8E0E-B73FE1136645}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>timeline2</RootNamespace>
+    <AssemblyName>timeline2</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Character.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Character.Designer.cs">
+      <DependentUpon>Character.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentSecWpnDurabity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentSecWpnDurabity.Designer.cs">
+      <DependentUpon>CurrentSecWpnDurabity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Difficulty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Difficulty.Designer.cs">
+      <DependentUpon>Difficulty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilledSandTanks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilledSandTanks.Designer.cs">
+      <DependentUpon>FilledSandTanks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Life.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Life.Designer.cs">
+      <DependentUpon>Life.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location.Designer.cs">
+      <DependentUpon>Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriWpn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriWpn.Designer.cs">
+      <DependentUpon>PriWpn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PS2Checksum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PS2Checksum.Designer.cs">
+      <DependentUpon>PS2Checksum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PS2Slot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PS2Slot.Designer.cs">
+      <DependentUpon>PS2Slot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandPowersTanks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SandPowersTanks.Designer.cs">
+      <DependentUpon>SandPowersTanks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecWpn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecWpn.Designer.cs">
+      <DependentUpon>SecWpn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storyline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storyline.Designer.cs">
+      <DependentUpon>Storyline.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Character.resx">
+      <DependentUpon>Character.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentSecWpnDurabity.resx">
+      <DependentUpon>CurrentSecWpnDurabity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Difficulty.resx">
+      <DependentUpon>Difficulty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilledSandTanks.resx">
+      <DependentUpon>FilledSandTanks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Life.resx">
+      <DependentUpon>Life.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location.resx">
+      <DependentUpon>Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriWpn.resx">
+      <DependentUpon>PriWpn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PS2Checksum.resx">
+      <DependentUpon>PS2Checksum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PS2Slot.resx">
+      <DependentUpon>PS2Slot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SandPowersTanks.resx">
+      <DependentUpon>SandPowersTanks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecWpn.resx">
+      <DependentUpon>SecWpn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storyline.resx">
+      <DependentUpon>Storyline.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
